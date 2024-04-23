@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            background-color: gray;
+        }
+        input{
+            background-color: gray;
+            border: none;
+            outline: none;
+        }
+        input::placeholder{
+            color: #d4cece;
+        }
+        textarea{
+            background-color: gray;
+        }
+        textarea::placeholder{
+            color: #d4cece;
+        }
+        #button1{
+            background-color: blue;
+            color: #d4cece;
+            border-radius: 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #button1:hover{
+            color: blue;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        #button2{
+            background-color: #fff;
+            color: black;
+            border-radius: 5px;    
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #button2:hover{
+            color: #fff;
+            background-color: blue;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <center><div>
+    <form action="">
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        <input type="number" placeholder="Number"><br><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea> <br><br>
+        <button id="button1">Submit</button>&nbsp;&nbsp;<button id="button2">Cancel</button>
+    </form>
+
+    
+    </div></center>
+</body>
+</html>
