@@ -6,22 +6,32 @@
     <title>Document</title>
 
     <style>
-        div{
+        body{
             background-color: gray;
+        }
+        div{
+            margin-top: 100px;
         }
         input{
             background-color: gray;
             border: none;
             outline: none;
+            color: #fff;
         }
         input::placeholder{
             color: #d4cece;
+        }
+        input:hover{
+            border-bottom: 1px solid black;
         }
         textarea{
             background-color: gray;
         }
         textarea::placeholder{
             color: #d4cece;
+        }
+        textarea:hover{
+            border: 1px solid black;
         }
         #button1{
             background-color: blue;
@@ -51,7 +61,8 @@
 </head>
 <body>
     
-    <center><div>
+<center>
+    <div>
     <form action="">
         <input type="text" placeholder="Name"><br><br>
         <input type="email" placeholder="Email"><br><br>
@@ -62,6 +73,7 @@
     </form>
 
     
-    </div></center>
+    </div>
+</center>
 </body>
 </html>
